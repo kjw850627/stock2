@@ -104,4 +104,4 @@ if __name__ == "__main__":
         # if 9 <= now_hour <= 16:
         run_analysis()
         
-        time.sleep(3600) # 1시간 대기   
+        time.sleep(60) # 1시간 대기   
