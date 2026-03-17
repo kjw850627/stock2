@@ -154,6 +154,6 @@ if __name__ == "__main__":
             analyze_and_report()
             
             print(f">>> 다음 분석까지 1시간 대기합니다...")
-            time.sleep(3600) # 1시간(3600초) 대기
+            time.sleep(60) # 1시간(3600초) 대기
     else:
         print("❌ 폰트 설정 실패로 프로그램을 종료합니다.")
